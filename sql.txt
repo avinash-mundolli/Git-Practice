@@ -146,3 +146,9 @@ Contact
 Manage cookies
 Do not share my personal information
 limit.sql
+
+
+
+select department ,max(salary) as highest_salary,min(salary) as minimum salary from employee;
+select department,year(join_date) as join_date asec count(*) from employee group by department,year(join_date);
+select department,count(*) from employee;
